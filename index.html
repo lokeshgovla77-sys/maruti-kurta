@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maruti Kurta | Traditional Meets Style</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topbar">🚚 Free Shipping on Orders Above ₹9999 &nbsp; | &nbsp; ↩ Easy Returns &nbsp; | &nbsp; 💵 Cash on Delivery</div>
+
+  <header>
+    <div class="logo">Maruti <span>Kurta</span></div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#men">Men</a>
+      <a href="#women">Women</a>
+      <a href="#new">New Arrivals</a>
+      <a href="#sale">Sale</a>
+    </nav>
+    <button class="cart" onclick="showCart()">🛒 <span id="cartCount">0</span></button>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div>
+        <p class="eyebrow">TRADITIONAL &nbsp; | &nbsp; COMFORTABLE &nbsp; | &nbsp; STYLISH</p>
+        <h1>Premium Kurtas<br>For Every Occasion</h1>
+        <p>Discover elegant, comfortable kurtas designed for everyday style and festive moments.</p>
+        <a class="btn" href="#men">Shop Now →</a>
+      </div>
+    </section>
+
+    <section class="categories">
+      <a href="#men">👨 Men's Kurtas</a>
+      <a href="#women">👩 Women's Kurtas</a>
+      <a href="#kids">🧒 Kids' Kurtas</a>
+      <a href="#short">👕 Short Kurtas</a>
+      <a href="#festive">✨ Festive Collection</a>
+      <a href="#new">🆕 New Arrivals</a>
+    </section>
+
+    <section id="men" class="section">
+      <p class="eyebrow">SHOP OUR PICKS</p>
+      <h2>Featured Collection</h2>
+      <div class="products">
+        <article class="product">
+          <div class="product-img">KURTA</div>
+          <h3>Classic Cotton Kurta</h3>
+          <p>Comfortable everyday style</p>
+          <strong>₹499</strong>
+          <button onclick="addToCart()">Add to Cart</button>
+        </article>
+        <article class="product">
+          <div class="product-img dark">KURTA</div>
+          <h3>Festive Premium Kurta</h3>
+          <p>Perfect for celebrations</p>
+          <strong>₹799</strong>
+          <button onclick="addToCart()">Add to Cart</button>
+        </article>
+        <article class="product">
+          <div class="product-img light">KURTA</div>
+          <h3>Traditional Kurta Pajama</h3>
+          <p>Elegant traditional look</p>
+          <strong>₹899</strong>
+          <button onclick="addToCart()">Add to Cart</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="sale" class="offer">
+      <div>
+        <p class="eyebrow">LIMITED OFFER</p>
+        <h2>Flat 30% Off</h2>
+        <p>On selected men's kurtas</p>
+        <a class="btn" href="#men">Shop Men's Collection →</a>
+      </div>
+    </section>
+
+    <section id="women" class="section center">
+      <p class="eyebrow">KURTA</p>
+      <h2>Elegant Styles<br>For Every You</h2>
+      <p>Explore the Maruti Kurta collection.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="logo">Maruti <span>Kurta</span></div>
+    <p>Traditional Meets Style</p>
+    <p>© 2026 Maruti Kurta. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
