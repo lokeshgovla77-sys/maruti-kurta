@@ -189,3 +189,41 @@ footer{background:#211914;color:#fff;text-align:center;padding:45px 20px}footer 
         text-align: center;
     }
 }
+@media (max-width: 800px) {
+
+    .products {
+        grid-template-columns: 1fr !important;
+    }
+
+    .product {
+        width: 100% !important;
+    }
+
+    .product-img {
+        width: 100% !important;
+        height: 300px !important;
+    }
+
+    .hero {
+        min-height: auto !important;
+        padding: 45px 20px !important;
+    }
+
+    h1 {
+        font-size: 32px !important;
+    }
+
+    header {
+        padding: 12px 15px !important;
+    }
+
+    nav {
+        width: 100% !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+    }
+
+    body {
+        overflow-x: hidden !important;
+    }
+}
